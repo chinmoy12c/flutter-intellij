@@ -35,4 +35,9 @@
       <option name="DART_STATEMENT" value="true"/>
     </context>
   </template>
+  <template name="bld" value="@override&#10;Widget build(BuildContext context) {&#10;    return Container($END);&#10;}" description="Create build method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
